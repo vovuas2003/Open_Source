@@ -1,0 +1,31 @@
+==================================================
+MPI_Send test
+Send int time = 1.00136e-05 seconds
+Recv int, n = 1
+Recv char[10241] array, array[0] = 1
+==================================================
+Send char array time = 2.0002 seconds
+==================================================
+MPI_Ssend test
+Ssend int time = 2.0001 seconds
+Recv int, n = 1
+Recv char[10241] array, array[0] = 1
+==================================================
+Ssend char array time = 2.00015 seconds
+==================================================
+MPI_Rsend test
+Rsend int time = 1.19209e-05 seconds
+Recv int, n = 1
+Rsend char array time = 2.00015 seconds
+Recv char[10241] array, array[0] = 1
+==================================================
+==================================================
+MPI_Bsend test
+Bsend int time = 1.09673e-05 seconds
+[n01:32199] *** An error occurred in MPI_Bsend
+[n01:32199] *** reported by process [140720854794241,0]
+[n01:32199] *** on communicator MPI_COMM_WORLD
+[n01:32199] *** MPI_ERR_BUFFER: invalid buffer pointer
+[n01:32199] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[n01:32199] ***    and potentially your MPI job)
+Recv int, n = 1

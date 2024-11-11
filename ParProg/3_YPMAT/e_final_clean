@@ -1,0 +1,3 @@
+#!/bin/bash
+mv out to_plot
+rm nonparallel_out

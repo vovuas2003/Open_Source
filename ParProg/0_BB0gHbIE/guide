@@ -1,0 +1,8 @@
+mpicc -o hello hello.c
+mpicc hello.c -o hello -std=c99
+
+qsub run.sh
+
+qstat
+
+qdel ID

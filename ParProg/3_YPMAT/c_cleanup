@@ -1,0 +1,5 @@
+#!/bin/bash
+rm YPMAT*
+cat *.txt > fix.txt
+python3 fix.py
+rm *.txt

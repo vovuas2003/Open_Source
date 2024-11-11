@@ -1,0 +1,23 @@
+gcc seq.c -o seq.out -lm
+mpicc main.c -o main -lm
+
+(use tab + enter)
+./a
+./b
+(wait YRMAT, ls -la)
+./c
+./d
+./e
+(download to_plot and run plot.py or 3D_plot.py)
+rm to_plot
+
+cat to_plot | head -n 1
+cat to_plot | tail -n 1
+
+settings (use nano): t = time step, nt = amount of time steps, h = coordinate step, nh = amount of coordinate steps
+
+b_seq_run
+t nt h nh
+
+run.sh
+t nt h nh_per_process

@@ -1,0 +1,6 @@
+Np = 1, len = 10000000
+Sort time = 5.3936 seconds
+Result: OK!
+Np = 4, len = 10000000
+Sort time = 2.23069 seconds
+Result: OK!

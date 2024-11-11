@@ -1,0 +1,2 @@
+#!/bin/bash
+./seq.out 0.005 1000 0.005 10000 > nonparallel_out
